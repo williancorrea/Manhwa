@@ -1,0 +1,13 @@
+pluginManagement {
+    repositories {
+        mavenLocal()
+        mavenCentral()
+        gradlePluginPortal()
+    }
+}
+
+
+rootProject.name = 'manhwa'
+
+include 'backend'
+include 'frontend'

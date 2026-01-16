@@ -1,0 +1,20 @@
+plugins {
+    id 'idea'
+    id 'base'
+}
+
+group = 'dev.williancorrea'
+version = '1.0.0'
+description = 'Leitor de quadrinhos'
+
+allprojects {
+    group 'dev.williancorrea'
+    version "1.0.0"
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+}
